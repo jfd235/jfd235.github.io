@@ -8,7 +8,7 @@ import Udemy from './pages/udemy';
 
 // Setup Google analytics
 import ReactGA from 'react-ga';
-const TRACKING_ID = 'G-NE33TXKBZE';
+const TRACKING_ID = 'UA-249291389-1';
 ReactGA.initialize(TRACKING_ID);
   
 function App() {
