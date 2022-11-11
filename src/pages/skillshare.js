@@ -3,7 +3,7 @@ import React from 'react';
 const Skillshare = () => {
   return (
     <div>
-      <h1>Skillshare Test</h1>
+      <h1>Skillshare</h1>
     </div>
   );
 };

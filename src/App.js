@@ -5,18 +5,22 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './pages';
 import Skillshare from './pages/skillshare';
 import Udemy from './pages/udemy';
-// import SignUp from './pages/signup';
-// import Contact from './pages/contact';
+
+// Setup Google analytics
+import ReactGA from 'react-ga';
+const TRACKING_ID = 'G-2KDBX9FTQZ';
+ReactGA.initialize(TRACKING_ID);
   
 function App() {
+	useEffect(() => {
+		ReactGA.pageview(window.location.pathname + window.location.search); // Track page views
+	  }, []);
 return (
     <Router>
     <Routes>
         <Route exact path='/' exact element={<Home />} />
         <Route path='/skillshare' element={<Skillshare/>} />
         <Route path='/udemy' element={<Udemy/>} />
-        {/* <Route path='/blogs' element={<Blogs/>} />
-        <Route path='/sign-up' element={<SignUp/>} /> */}
     </Routes>
     </Router>
 );
