@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter as Router, Routes, Route}
+import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Home from './pages';
 import Skillshare from './pages/skillshare';
@@ -10,7 +10,7 @@ import Udemy from './pages/udemy';
   
 function App() {
 return (
-	<>
+    <Router>
     <Routes>
         <Route exact path='/' exact element={<Home />} />
         <Route path='/skillshare' element={<Skillshare/>} />
@@ -18,7 +18,7 @@ return (
         {/* <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} /> */}
     </Routes>
-	</>
+    </Router>
 );
 }
   
