@@ -5,6 +5,10 @@
   font-family: Outfit, sans-serif;
 }
 
+.home {
+	overflow-y: hidden;
+}
+
 .navbar {
 	cursor: pointer;
 	height: 150px;
