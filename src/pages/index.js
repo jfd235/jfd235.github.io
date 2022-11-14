@@ -12,9 +12,7 @@ const Home = () => {
     <div className="home">
       <div class="navbar background">
         <ul class="nav-list">
-          <div class="logo">
             <img className="logoimg" src={logo2} />
-          </div>
           <div className="title">
             <span>Mynute Skills</span>
           </div>
