@@ -9,6 +9,12 @@
 	overflow: hidden;
 }
 
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .navbar {
 	cursor: pointer;
 	height: 150px;
@@ -133,6 +139,11 @@ background-color: #000;
 	align-items: center;
 	background-color: rgb(250, 250, 250);
 	justify-content: space-between;
+}
+
+.slogan {
+	height: 300px;
+	align-content: center;
 }
 
 .section-Left {

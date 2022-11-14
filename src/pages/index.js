@@ -22,7 +22,7 @@ const Home = () => {
       </div>
 
       <div className="body">
-        <section class="section">
+        <section class="section slogan">
           <div class="box-main">
             <div className={"wiggle ls ease-in-out infinite"}>
               <Typewriter
