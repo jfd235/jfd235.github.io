@@ -6,7 +6,7 @@
 }
 
 .home {
-	overflow-y: hidden;
+	overflow: hidden;
 }
 
 .navbar {
