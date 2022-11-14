@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Typewriter from "typewriter-effect";
-import logo512 from '../logo512.png'
+import logo1 from '../logo1.png'
+import logo2 from '../logo2.png'
 import obama from '../obama.png'
   
 const Home = () => {
@@ -10,12 +11,14 @@ const Home = () => {
         <nav class="navbar background">
             <ul class="nav-list">
                 <div class="logo">
-                    <img src=
-            {logo512} />
+                    <img src={logo1} />
                 </div>
                 <li><a href="#browse">Browse</a></li>
                 <li><a href="#create">Create</a></li>
                 <li><a href="#login">Login</a></li>
+                <div class="logo">
+                    <img src={logo2} />
+                </div>
             </ul>
 
             <div class="rightNav">
