@@ -30,9 +30,9 @@ const Home = () => {
                   wrapperClassName: "type_writer",
                   cursorClassName: "cursor_class",
                   strings: [
-                    "<strong style='font-size: 50pt'>Mynute Skills</strong>",
-                    "<strong style='font-size: 50pt'>Casual Learning</strong>",
-                    "<strong style='font-size: 50pt'>Better than Skillshare and Udemy</strong>",
+                    "<strong style='font-size: 30pt'>Mynute Skills</strong>",
+                    "<strong style='font-size: 30pt'>Casual Learning</strong>",
+                    "<strong style='font-size: 30pt'>Adulting Skills at One Stop</strong>",
                   ],
                   autoStart: true,
                   loop: true,
@@ -47,7 +47,9 @@ const Home = () => {
         <section class="section">
           <div class="box-main">
             <div class="firstHalf">
-              <h1 class="text-big">Welcome to Mynute Skills!</h1>
+              <h1 class="text-big">
+                Welcome to <span className="mynuteskills">Mynute Skills</span>!
+              </h1>
               <p class="text-small">
                 Your one-stop shop for casual learning. Browse our selection of
                 specially curated adulting skills videos!
@@ -105,7 +107,7 @@ const Home = () => {
                   where I am today without it!"
                 </i>
                 <br />
-                <b>~Barack Obama, 44th President of the United States</b>
+                <b>- Barack Obama, 44th President of the United States</b>
                 <br />
               </p>
             </div>

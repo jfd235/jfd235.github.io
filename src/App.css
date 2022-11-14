@@ -26,9 +26,10 @@
 }
 
 .title{
-	margin-left: 30px;
-	font-size: 50px;
+	margin-left: 20px;
+	font-size: 60px;
 	font-weight: bold;
+	text-shadow: #FDD009 0.05em 0.05em;
 }
 
 .logo {
@@ -109,14 +110,28 @@ background-color: #000;
 }
 
 .text-big {
-	font-weight: 500;
 /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Outfit, sans-serif; */
-font-family: Outfit, sans-serif;
-	font-size: 30px;
+	font-family: Outfit, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
 }
 
 .text-small {
-	font-size: 18px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.mynuteskills {
+	color: #d4aa00;
+}
+
+a {
+	color: #d4aa00;
+}
+
+a:hover {
+	color: #000;
 }
 
 .btn {
@@ -142,7 +157,7 @@ background-color: #000;
 }
 
 .slogan {
-	height: 300px;
+	height: 250px;
 	align-content: center;
 }
 
