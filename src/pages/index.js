@@ -8,24 +8,26 @@ import obama from '../obama.png'
 const Home = () => {
   return (
     <div>
-        <nav class="navbar background">
-            <ul class="nav-list">
-                <div class="logo">
-                    <img src={logo1} />
-                </div>
-                <li><a href="#browse">Browse</a></li>
-                <li><a href="#create">Create</a></li>
-                <li><a href="#login">Login</a></li>
-                <div class="logo">
-                    <img src={logo2} />
-                </div>
-            </ul>
+        <div>
+            <nav class="navbar background">
+                <ul class="nav-list">
+                    <div class="logo">
+                        <img src={logo1} />
+                    </div>
+                    <li><a href="#browse">Browse</a></li>
+                    <li><a href="#create">Create</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <div class="logo">
+                        <img src={logo2} />
+                    </div>
+                </ul>
 
-            <div class="rightNav">
-                <input type="text" name="search" id="search" />
-                <button class="btn btn-sm">Search</button>
-            </div>
-        </nav>
+                <div class="rightNav">
+                    <input type="text" name="search" id="search" />
+                    <button class="btn btn-sm">Search</button>
+                </div>
+            </nav>
+        </div>
 
         <section class="section">
             <div class="box-main">
