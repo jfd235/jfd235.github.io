@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Home from './pages';
+import Lone from './pages/mynute_skills_alone';
+import Together from './pages/mynute_skills_together';
 import Skillshare from './pages/skillshare';
 import Udemy from './pages/udemy';
 
@@ -19,6 +21,8 @@ return (
     <Router>
     <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route exact path='/lone' element={<Lone />} />
+        <Route exact path='/together' element={<Together />} />
         <Route path='/skillshare' element={<Skillshare/>} />
         <Route path='/udemy' element={<Udemy/>} />
     </Routes>
