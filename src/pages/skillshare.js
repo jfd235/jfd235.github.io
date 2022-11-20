@@ -1,10 +1,10 @@
 import React from 'react';
+import { Navigate } from 'react-router';
   
 const Skillshare = () => {
+  window.location.href = 'https://www.skillshare.com/';
   return (
-    <div>
-      <h1>Skillshare</h1>
-    </div>
+    null
   );
 };
   
